@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    background: #efe4cf;
+    color: #304d3e;
+    font-family: Georgia, serif;
+}
+
+header {
+    height: 60px;
+    background: #fffaf0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #d8c9ae;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header small {
+    display: block;
+}
+
+.money {
+    text-align: center;
+}
+
+.banner {
+    height: 55px;
+    background: #fffaf0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 430px 1fr;
+    gap: 25px;
+}
+
+.menu {
+    background: #2f5544;
+    color: white;
+    border: 7px solid #9b8062;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.menu h2 {
+    font-size: 28px;
+}
+
+.menu button {
+    float: right;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px;
+    border-radius: 7px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 45px 1fr 45px;
+    gap: 8px;
+    padding: 8px 0;
+    border-bottom: 1px dashed #738a7d;
+}
+
+.box {
+    background: #fffaf0;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.goal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.open {
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px;
+    border: 0;
+    border-radius: 9px;
+    background: #c9a4aa;
+    color: white;
+    font-weight: bold;
+}
+
+.game-panel {
+    background: #fffaf0;
+    border: 1px solid #d5c5aa;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background: #e8dfcf;
+}
+
+nav button {
+    border: 0;
+    padding: 15px 5px;
+    background: transparent;
+}
+
+.content {
+    padding: 20px;
+}
+
+.categories {
+    display: flex;
+    gap: 10px;
+}
+
+.categories button {
+    flex: 1;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid #dccdb5;
+    background: white;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 18px 5px;
+    border-bottom: 1px solid #ddd0bb;
+}
+
+.item div:nth-child(2) {
+    flex: 1;
+}
+
+.item p {
+    margin: 5px 0;
+    color: #806c5c;
+}
+
+.item button {
+    padding: 9px 12px;
+    border: 1px solid #d8c9ae;
+    background: white;
+    border-radius: 7px;
+}
+
+.icon {
+    font-size: 32px;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cook {
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    border-radius: 8px;
+    background: #315b48;
+    color: white;
+    font-weight: bold;
+}
